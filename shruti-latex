@@ -1,0 +1,91 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\usepackage[hmargin=0.75in,vmargin=0.75in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\setlength{\hintscolumnwidth}{2.5cm}
+
+\name{Shruti}{Garg}
+\title{Senior Android Developer}
+\address{Bengaluru, Karnataka, India}
+\phone[mobile]{+91-9591909081}
+\email{garg.shruti9190@gmail.com}
+\homepage{linkedin.com/in/shruti-garg-25871962}
+
+\begin{document}
+\makecvtitle
+
+\section{Professional Summary}
+\cvitem{}{Senior Android Developer with 10+ years of experience in Android application and framework development across automotive, telecom, and fintech domains. Strong expertise in AOSP customization, System Services, JNI/NDK, and Android UI frameworks. Proven ability to work close to hardware layers, debug complex framework issues, and deliver stable, high-quality Android solutions for large-scale products.}
+
+\section{Professional Experience}
+
+\cventry{Feb 2023--Present}{Senior Software Engineer}{T-Mobile (Aditi Consulting Payroll)}{Bengaluru, India}{}{\textbf{Business Communication Application}}
+\begin{itemize}
+    \item Developed Android applications enabling multiple mobile numbers on a single device without a physical SIM.
+    \item Implemented features, wrote unit and functional test cases, and resolved production issues.
+    \item Analyzed logs, identified root causes, and delivered fixes with high code quality.
+    \item Collaborated closely with cross-functional and customer engineering teams.
+\end{itemize}
+\vspace{1em}
+
+\cventry{May 2021--Nov 2022}{Senior Software Engineer}{PayPal (Aditi Consulting Payroll)}{Bengaluru, India}{}{\textbf{Product Offers \& Recommendations}}
+\begin{itemize}
+    \item Developed Android libraries to fetch product offers and recommendations using GraphQL APIs.
+    \item Integrated libraries across multiple PayPal app modules.
+    \item Improved reliability through unit testing, debugging, and performance optimization.
+\end{itemize}
+\vspace{1em}
+
+\cventry{May 2020--May 2021}{Senior Software Engineer}{LG Soft India (Bitkemy Payroll)}{Bengaluru, India}{}{\textbf{AOSP SystemUI Customization}}
+\begin{itemize}
+    \item Customized AOSP SystemUI and Keyguard for LG devices based on QOS and ROS.
+    \item Implemented features such as lock screen enhancements, LTE icon handling, and Google Assistant integration.
+    \item Debugged and resolved SystemUI framework issues by analyzing logs and system behavior.
+\end{itemize}
+\vspace{1em}
+
+\cventry{Sep 2018--Apr 2020}{Senior Product Engineer}{Harman Connected Services}{Bengaluru, India}{}{\textbf{Automotive Infotainment Systems}}
+\begin{itemize}
+    \item Developed Android-based car infotainment systems for Mitsubishi and Suzuki vehicles.
+    \item Customized AOSP, System Services, and SystemUI components.
+    \item Designed Android framework System Services and JNI interfaces for MCU–SOC communication.
+    \item Built native system applications supporting parking brake, reverse gear, RSE, Bluetooth calls, and SWC.
+\end{itemize}
+\vspace{1em}
+
+\cventry{Aug 2016--Sep 2018}{Senior Software Engineer}{Samsung (Tech Mahindra Payroll)}{Bengaluru, India}{}{\textbf{Samsung Knox}}
+\begin{itemize}
+    \item Developed instrumentation and automation test cases for Knox Data Leakage Prevention (DLP).
+    \item Worked on container security, file access policies, and test framework enhancements.
+\end{itemize}
+\vspace{1em}
+
+\cventry{Feb 2014--May 2016}{Software Engineer}{Xymob}{Bhilai, India}{}{\textbf{Android Application Development}}
+\begin{itemize}
+    \item Worked on system design, application maintenance, and performance optimization.
+    \item Tuned applications for older Android devices and lower hardware configurations.
+\end{itemize}
+
+\section{Education}
+\cventry{2010--2013}{Master of Computer Applications (MCA)}{CSVTU}{Bhilai, India}{}{}
+\cventry{2007--2010}{Bachelor of Computer Applications (BCA)}{Guru Ghasidas Central University}{Bilaspur, India}{}{}
+
+\section{Key Projects}
+\cvitem{T-Mobile Business App}{Android app enabling multiple virtual mobile numbers per device without SIM dependency.}
+\cvitem{PayPal Offers Engine}{Android library consuming GraphQL APIs for product offers and recommendations.}
+\cvitem{Automotive Head Unit}{Android AOSP-based infotainment system with SystemUI, System Services, and JNI integration.}
+\cvitem{Samsung Knox DLP}{Automation and instrumentation testing for secure enterprise containers.}
+\cvitem{Cut Paste Photos}{Photo editing app with edge detection, published under Dexati on Play Store.}
+
+\section{Skills}
+\cvitem{Technical}{Kotlin, Java, Android SDK, AOSP, System Services, SystemUI, JNI/NDK, Jetpack, LiveData, ViewModel, MVVM, MVP}
+\cvitem{Tools}{Android Studio, IntelliJ IDEA, Eclipse, Git, Gerrit, Perforce, Swarm, JIRA}
+\cvitem{Domains}{Automotive Infotainment, Telecom, Fintech, Android Framework Development}
+\cvitem{OS}{Linux, Windows}
+\cvitem{Languages}{English (Professional), Hindi (Native)}
+
+\end{document}
